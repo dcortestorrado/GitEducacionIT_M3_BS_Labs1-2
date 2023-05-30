@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+/* img 100% < 768, 80% */
+/* Centrar botones y h1 en < 768 desde el HTML */
+/* font-variation: small-caps para botones, width 150px */
+/* Separar botones con m */
+/* Usar d-flex para la alineación del contenedor del texto */
+
+h1 {
+    font-weight: 900;
+    font-size: 82.66px;
+    color: #04146c;
+}
+
+p, span {
+    font-weight: 400;
+    font-size: 21.33px;
+    color: #04146c;
+}
+
+span {
+    font-style: italic;
+}
+
+button {
+    background-color: #04146c;
+    border: transparent;
+    border-radius: 0;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-variant: small-caps;
+    font-size: 18.66px;
+    width: 150px;
+}
+
+.container-fluid {
+    width: 90vw;
+}
+
+img {
+    width: 80%;
+}
+
+@media(max-width: 768px){
+    img {
+        width: 100%;
+    }
+
+    p, span {
+        font-size: 19px;
+    }
+}
